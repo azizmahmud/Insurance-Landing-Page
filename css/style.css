@@ -286,7 +286,7 @@ Global Styles End
   /*   -webkit-box-shadow: 0 10px 28px 0 rgb(61 82 96 / 15%);
   box-shadow: 0 10px 28px 0 rgb(61 82 96 / 15%); */
 }
-.price-toggle-wrap a {
+.price-toggle-wrap button {
   display: inline-block;
   padding: 16px 40px;
   border-radius: 100px;
@@ -298,8 +298,9 @@ Global Styles End
   text-decoration: none;
   -webkit-transition: all 0.25s linear;
   transition: all 0.25s linear;
+  border: none;
 }
-.price-toggle-wrap a.active {
+.price-toggle-wrap button.active {
   background: var(--primary);
   color: var(--white);
 }
