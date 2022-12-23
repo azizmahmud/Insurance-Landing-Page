@@ -1,10 +1,22 @@
 @media (max-width: 767.98px) {
-    .hero-section img {
-      margin-top: 50px;
-    }
-  
-    .client-logo-section img {
-      padding-left: 3rem;
-      padding-right: 3rem;
-    }
+  .hero-section img {
+    margin-top: 50px;
   }
+
+  .client-logo-section img {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+
+  .marillanz-section {
+    padding: 0rem;
+  }
+  .satisfied-clients-section {
+    padding: 0rem;
+    padding-bottom: 5rem;
+  }
+  .newslatter-section {
+    padding: 0rem;
+    padding-bottom: 5rem;
+  }
+}
